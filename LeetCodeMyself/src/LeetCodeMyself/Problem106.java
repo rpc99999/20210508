@@ -7,6 +7,10 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class Problem106 {
+	/*
+		Given two integer arrays inorder and postorder where inorder is the inorder traversal of a binary tree 
+		and postorder is the postorder traversal of the same tree, construct and return the binary tree.
+	 */
 	public TreeNode buildTree(int[] inorder, int[] postorder) {
 		if(postorder.length == 0 && inorder.length == 0) {
         	return null;
